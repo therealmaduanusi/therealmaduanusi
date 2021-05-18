@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @therealmaduanusi
-- 👀 I’m interested in ...
+- 👀 I’m interested in the world of tech
 - 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate with anyone/group in software engineering
 - 📫 How to reach me @therealmaduanusi on all major platform

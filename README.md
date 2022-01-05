@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @therealmaduanusi
+- 👋 Hi, I’m Victor Maduanusi
 - 👀 I’m interested in the world of tech
 - 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate with anyone/group in software engineering
-- 📫 How to reach me @therealmaduanusi on all major platform
+- 📫 How to reach me @therealmaduanusi02 on all major platform
 
 <!---
 therealmaduanusi/therealmaduanusi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

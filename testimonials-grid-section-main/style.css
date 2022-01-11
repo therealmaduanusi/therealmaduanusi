@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,100&family=Imperial+Script&family=Inter:wght@900&family=Karla:wght@600&family=Lexend+Deca:wght@100&family=Poppins:wght@200&family=Raleway:wght@500&family=Red+Hat+Display:wght@300;800&family=Vujahday+Script&display=swap');
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+/* Default value */
+:root{
+    --primary-moderate-violet: hsl(263, 55%, 52%);
+    --primary-very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --primary-white: hsl(0, 0%, 100%);
+
+    --neutral-light-gray: hsl(0, 0%, 81%);
+    --neutarl-light-grayish-blue: hsl(210, 46%, 95%);
+
+    /* fonts */
+    --fw-light: 500;
+    --fw-bold: 600;
+}
+body{
+    background-color: var(--neutral-light-gray);
+}
+
+img{
+    border-radius: 50%;
+    max-width: 40px;
+    margin-bottom: 10px;
+    border: 3px solid var(--neutral-light-gray);
+}
+span{
+    color: var(--neutral-light-gray);
+}
+
+/* All grid profile */
+.profile{
+    display: flex;
+}
+/* Flex container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* grid container */
+.grid-container{
+    color: #fff;
+}
+
+.grid-container > div{
+    padding: 2rem;
+}
+/* grid item 1 */
+.item-1{
+    background: url(/images/bg-pattern-quotation.svg) no-repeat;
+    background-position: 70% 0;
+    grid-column: span 2;
+    background-color: var(--primary-moderate-violet);
+}
+.profile-name{
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 0.79rem;
+}
+.paragraph-1{
+    font-size: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: var(--fw-bold);
+    margin-bottom: 14px;
+}
+.paragraph-2{
+    color: var(--neutral-light-gray);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: var(--fw-light);
+    font-size: 0.91rem;
+}
+
+/* grid item 4 */
+.item-4{
+    grid-column: 2 / 4;
+    background-color: var(--primary-very-dark-blackish-blue);
+}
+/* grid item 3 */
+.item-3{
+    background-color: var(--primary-white);
+    color: var(--primary-very-dark-blackish-blue);
+}
+/* grid item 2 */
+.item-2{
+    background-color: hsl(219, 29%, 45%);
+}
+/* grid item 5 */
+.item-5{
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    background-color: var(--primary-white);
+    color: var(--primary-very-dark-blackish-blue);
+}
+
+/* grid item 2, 3, 4 & 5 */
+.itemParagh{
+    margin-bottom: 14px;
+    font-size: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: var(--fw-bold);
+}
+.item-paragh2{
+    color: var(--neutral-light-gray);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: var(--fw-light);
+}
+
+.content3 > .item-paragh2,
+.content5 > .item-paragh2{
+    color: hsl(0, 0%, 50%);
+}
+
+
+/* Media query */
+@media(min-width: 64rem){
+    .container{
+        width: 88%;
+        margin: auto;
+    }
+    .grid-container{
+        height: 50rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        align-content: center;
+        justify-content: center;
+    }
+    /* All grid radius */
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        border-radius: 10px;
+    }
+    
+
+}
+
+@media(max-width: 376px){
+    .grid-container > div{
+        padding: 2rem;
+        margin: 20px;
+    }
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        border-radius: 10px;
+    }
+}

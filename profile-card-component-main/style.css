@@ -1,0 +1,119 @@
+/* ---CSS REST--- */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,100&family=Imperial+Script&family=Inter:wght@900&family=Karla:wght@600&family=Kumbh+Sans:wght@700&family=Lexend+Deca:wght@100&family=Poppins:wght@200&family=Raleway:wght@500&family=Red+Hat+Display:wght@300;800&family=Vujahday+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Default */
+:ROOT{
+    /* Primary color */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* Neutral */
+    --dark-gray: hsl(0, 0%, 59%);
+
+    /* Fonts */
+    --fw-light: 400;
+    --fw-bold: 700;
+
+    --fs: 18px;
+}
+body{
+    background-color: var(--dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+span{
+    color: var(--dark-grayish-blue);
+    font-weight: var(--fw-light);
+    font-size: 16px;
+}
+
+/* ---Main--- */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background: url(/images/bg-pattern-bottom.svg) no-repeat;
+    background-position: 600px 400px;
+}
+.card-wrapper{
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 80%;
+    box-shadow: 2px 2px 10px 2px var(--dark-grayish-blue);
+}
+.head{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pic{
+    border-radius: 50%;
+    position: relative;
+    width: 30%;
+    left: 35%;
+    top: -40px;
+}
+/* middle card */
+.middle-card{
+    text-align: center;
+}
+.name{
+    font-size: var(--fs);
+}
+.city{
+    font-size: 15px;
+    color: var(--dark-grayish-blue);
+    font-weight: var(--fw-light);
+    margin-top: 0.5rem;
+}
+
+/* hr */
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark-gray);
+    margin: 20px 0;
+}
+
+/* bottom */
+.data-profile{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Background img */
+.img-position{
+    position: absolute;
+    z-index: -1;
+}
+.img-top{
+    top: -70%;
+    left: -20%;
+}
+
+@media(min-width: 40rem){
+    main{
+        margin: 0;
+        height: 100vh;
+    }
+}
+@media(max-width: 350px){
+    main{
+        height: 25rem;
+    }
+}
+@media(max-width: 985px){
+    main{
+        background-position: 300px 200px;
+    }
+}

@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Victor Maduanusi
 - 👀 I’m interested in the world of tech
-- 🌱 I’m currently learning JavaScript
+- 🌱 I’m growing stronger with JavaScript
 - 💞️ I’m looking to collaborate with anyone/group in software engineering
 - 📫 How to reach me @therealmaduanusi02 on all major platform
 

@@ -2,7 +2,7 @@
 - 👀 I’m interested in the world of tech
 - 🌱 I’m growing stronger with JavaScript
 - 💞️ I’m looking to collaborate with anyone/group in software engineering
-- 📫 How to reach me @therealmaduanusi02 on all major platform
+- 📫 How to reach me @madu_anusi on all major platform
 
 <!---
 therealmaduanusi/therealmaduanusi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

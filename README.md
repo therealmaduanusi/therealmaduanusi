@@ -11,7 +11,7 @@ Backend Development: Node.js, Express.js
 Databases: postgreSQL, mySQL
 Version Control: Advanced Git workflows
 🛠️ Tools:
-* VS Code,
+* VS Code
 * Figma (for design collaboration)
 * Git & GitHub
 🌱 On My Radar

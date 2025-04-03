@@ -24,12 +24,13 @@ Complete my transition to a full-stack developer
 Build a portfolio of full-stack projects showcasing my skills
 Contribute to open-source projects
 📂 Featured Projects
-🌐 Project Name #1 – A brief description of this project.
+🌐 Rock paper scissors game #1 – A popular fun game to play
 🎨 Project Name #2 – Another project you're proud of.
 
 📫 Connect with Me
-LinkedIn: [Your Profile](https://www.linkedin.com/in/maduanusi-victor/)
-Twitter: @madu_anusi
+website: [click here](https://maduanusi.vercel.app/)
+LinkedIn: [click here](https://www.linkedin.com/in/maduanusi-victor/)
+Twitter: [@madu_anusi](https://x.com/madu_anusi)
 Email: maduanuvictor2020@gmail.com
 Thanks for visiting my GitHub! Let’s build something amazing together! 🚀
 <!---

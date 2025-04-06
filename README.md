@@ -28,7 +28,7 @@ Contribute to open-source projects
 🎨 Project Name #2 – Another project you're proud of.
 
 📫 Connect with Me
-website: [click here](https://maduanusi.vercel.app/)
+website: [maduanusi.vercel.app](https://maduanusi.vercel.app/)
 LinkedIn: [click here](https://www.linkedin.com/in/maduanusi-victor/)
 Twitter: [@madu_anusi](https://x.com/madu_anusi)
 Email: maduanuvictor2020@gmail.com

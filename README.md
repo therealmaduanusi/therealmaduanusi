@@ -25,7 +25,7 @@ Build a portfolio of full-stack projects showcasing my skills
 Contribute to open-source projects
 📂 Featured Projects
 🌐 Rock paper scissors game #1 – A popular fun game to play
-🎨 Project Name #2 – Another project you're proud of.
+🎨 Project Name #2 – Space Tourism website(FMC).
 
 📫 Connect with Me
 website: [maduanusi.vercel.app](https://maduanusi.vercel.app/)
